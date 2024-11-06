@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS for styling -->
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <p id="greetings"></p>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="posts-container">
+        <article>
+            <h2>Blog Post Title</h2>
+            <p>Published on <time datetime="2023-11-05">November 5, 2023</time></p>
+            <p>This is the content of your first blog post. You can write about any topic here.</p>
+        </article>
+        </div>
+        <button onclick="loadMorePosts()">Load more</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Blog</p>
+    </footer>
+</body>
+</html>
